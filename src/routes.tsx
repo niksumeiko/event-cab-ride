@@ -1,5 +1,5 @@
-import { LandingPage } from './landing/useCases/LandingPage';
 import { FocusPageLayout, HeroTitle } from '@design-system';
+import { LandingPage } from './landing/useCases/LandingPage';
 
 export const routes = [
     {
