@@ -12,7 +12,7 @@ const argv = yargs(process.argv.slice(2))
     .parseSync();
 
 type Trunk = 'S' | 'M' | 'L';
-type Segment = 'Economy' | 'Compact' | 'Luxury' | 'Supercar' | 'Premium';
+type Segment = 'Economy' | 'Compact' | 'Premium' | 'Luxury' | 'Supercar';
 const MODELS: Record<
     string,
     { segments?: Segment[]; trunk?: Trunk[]; capacity: number[] }
